@@ -1,10 +1,10 @@
 from replit import clear
-import art
+from art import logo
 #HINT: You can call clear() to clear the output in the console.
 
 bid = True
 bidders = {}
-print(art.logo)
+print(logo)
 print("Welcome to secret auction program")
 while bid:
   name = input("What is your name? ")
